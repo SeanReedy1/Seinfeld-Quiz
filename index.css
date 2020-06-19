@@ -1,0 +1,317 @@
+* {
+	padding: 0;
+	margin: 0;
+	}
+
+html, body {
+	height: 100%;
+    font-family: helvetica, arial, times;
+    margin:0;
+    padding: 0;
+}
+
+body {
+  background-color: #7FFFD4;
+}
+ 
+#page{
+	text-align:center;
+}
+
+ul{
+	list-style-type: none;
+}
+
+.startGame {
+	padding:40px;
+	background-color: #65a9d7;;
+	color: white;
+	font-weight:bold;
+	font-size: 30px;
+}
+
+header{
+	background-color: #7FFFD4;
+	margin: 0 auto;
+}
+
+.seinlogo{
+	margin-top: 20px;
+}
+
+label {
+	display: none;
+}
+
+header h1 {
+	font-size: 50px;
+	margin-top:50px;
+}
+
+.startGame{
+	margin-top: 50px;
+}
+
+.block {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.questionsheader{
+	height:100px;
+	font-size: 40px;
+	font-weight: bold;
+	background-color:#FFFF33	;
+	text-align:center;
+	vertical-align: center;
+	position: relative;
+	width: 100%;
+	margin-top:2px;
+}
+
+.questionsheader img{
+	height:90px;
+	float: right;
+	position: absolute;
+	top:5px;
+	right: 5px;
+}
+
+.questionnum{
+	margin-top: 10px;
+}
+
+.status {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#page{
+	background-color:#7FFFD4;;
+}
+
+fieldset {
+	border: none;
+}
+
+.mainquestion{
+	font-weight: bold;
+	height: 300px;
+	background-color: #7FFFD4;
+	margin-bottom: -70px;
+	margin-top:10px;
+}
+
+.q {
+	margin-bottom: 10px;
+}
+
+#enteranswer{
+	padding: 10px;
+	font-weight: bold;
+	margin-top: 10px;
+}
+
+.result {
+	font-size: 25px;
+	margin-bottom: 10px;
+}
+
+.rightresult{
+	font-size: 25px;
+	margin-bottom: 10px;
+	}
+
+.rightanswer h1{
+	margin-bottom: 10px;
+}
+
+.rightanswer p {
+	font-size: 30px;
+	font-weight: bold;
+}
+
+.resultpoints {
+	font-size: 25px;
+	font-weight: bold;
+	
+}
+
+.rightanswer button {
+	padding: 10px;
+	margin-bottom: 5px;
+}
+
+.wronganswer button {
+	padding: 10px;
+	margin-bottom: 5px;
+	
+}
+
+.rightanswer p {
+	font-weight: bold;
+}
+
+.wronganswer p {
+	font-weight: bold;
+}
+
+.wronganswer{
+	margin-top:25px;
+	margin-bottom: 15px;
+	border: 5px solid red;
+	padding: 10px;
+}
+
+.rightanswer{
+	margin-top:25px;
+	margin-bottom:15px;
+	border: 5px solid green;
+	padding: 10px;
+}
+
+#nextquestion {
+	padding: 13px;
+	font-weight: bold;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	
+}
+
+.hidden {
+	font-size: 1px;
+}
+
+.restart {
+	display:block;
+	padding:10px;
+	font-weight: bold;
+	margin: 0 auto;
+	margin-top:5px;
+	margin-bottom: 10px;
+
+}
+
+.frame {
+  background-color:#ddc;
+  border:solid 5vmin #eee;
+  border-bottom-color:#fff;
+  border-left-color:#eee;
+  border-radius:2px;
+  border-right-color:#eee;
+  border-top-color:#ddd;
+  box-shadow:0 0 5px 0 rgba(0,0,0,.25) inset, 0 5px 10px 5px rgba(0,0,0,.25);
+  box-sizing:border-box;
+  display:inline-block;
+  margin:10vh 10vw;
+  height:80vh;
+  padding:8vmin;
+  position:relative;
+  text-align:center;
+  &:before {
+    border-radius:2px;
+    bottom:-2vmin;
+    box-shadow:0 2px 5px 0 rgba(0,0,0,.25) inset;
+    content:"";
+    left:-2vmin;
+    position:absolute;
+    right:-2vmin;
+    top:-2vmin;
+  }
+  &:after {
+    border-radius:2px;
+    bottom:-2.5vmin;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,.25);
+    content:"";
+    left:-2.5vmin;
+    position:absolute;
+    right:-2.5vmin;
+    top:-2.5vmin;
+  }
+}
+
+.score{
+	margin-bottom: 5px;
+}
+
+.resultimg{
+  border:solid 20px;
+  border-bottom-color:#ffe;
+  border-left-color:#eed;
+  border-right-color:#eed;
+  border-top-color:#ccb;
+  max-height:100%;
+  max-width:100%;
+}
+
+.qnext{
+	margin-bottom: 5px;
+}
+
+html {
+  background-image:linear-gradient(#eee, #aaa);
+  height:100%;
+}
+
+@media only screen 
+  and (min-device-width: 414px) 
+  and (max-device-width: 736px) 
+ {
+
+.result {
+  font-size: 15px;
+}
+
+.qnext{
+  font-size: 15px;
+}
+
+.resultpoints {
+  font-size: 15px;
+}
+
+.resultimg{
+  display:none;
+}
+
+.seinlogo{
+  display:none;
+}
+
+.questionsheader{
+  height: 60px;
+}
+
+.bow {
+  height: 210px;
+}
+
+}
+
+@media only screen and (max-width: 639px) {
+	
+	.questionsheader{
+		height:100px;
+	}
+
+	.questionsheader h1{
+		font-size:40px;
+	}
+
+	.bow{
+  	width: 100%;
+    height: auto;
+    margin-top: -3px;
+}
+
+.seinlogo{
+	width:100%;
+	height: auto;
+	display:block;
+}
+
+.startGame{
+	padding:10px;
+}
+
+}
